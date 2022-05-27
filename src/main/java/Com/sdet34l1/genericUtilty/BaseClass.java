@@ -109,7 +109,7 @@ public void afterMethod1Test() throws InterruptedException {
 	homepage.signOut(driver, seleniumDriverUtility);
 	
 }
-/**
+/**close the browser
  * This method is used to close the browser
  */
 @AfterClass(groups = "Baseclass")
