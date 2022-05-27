@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Com.sdet34l1.genericUtilty.ListenerImplementation"/>
+    <listener class-name="Com.sdet34l1.genericUtilty.RetryanalyserListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Com.vtiger.campagnsTest.CreateCampgainsTest">
+        <methods>
+          <include name="createCampaignTest"/>
+          <include name="afterClass1Test"/>
+          <include name="beforesuite1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="afterMethod1Test"/>
+          <include name="afterSuite1Test"/>
+          <include name="beforeClass1Test"/>
+        </methods>
+      </class> <!-- Com.vtiger.campagnsTest.CreateCampgainsTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
