@@ -17,7 +17,7 @@ import Com.vtiger.objectRepository.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-	/**
+	/**Reusable methods
 	 * This class contain the all common methods for Testscripts
 	 */
 	
