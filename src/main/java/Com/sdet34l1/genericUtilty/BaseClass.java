@@ -59,8 +59,8 @@ public void beforeClass1Test(/*String browser*/) throws IOException {
 	String timeout = FileClassUtility.getDataFromPropertyFile("timeout");
 	 username =FileClassUtility.getDataFromPropertyFile("username");
 	 password = FileClassUtility.getDataFromPropertyFile("password");
-	 String browser=System.getProperty("browser");
-	//String browser = FileClassUtility.getDataFromPropertyFile("browser");
+	// String browser=System.getProperty("browser");
+	String browser = FileClassUtility.getDataFromPropertyFile("browser");
 	 industryname = FileClassUtility.getDataFromPropertyFile("industryname");
 	 typename = FileClassUtility.getDataFromPropertyFile("typename");
 	 emailid = FileClassUtility.getDataFromPropertyFile("email");

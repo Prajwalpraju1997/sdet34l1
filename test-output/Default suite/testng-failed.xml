@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.vtiger.campagnsTest.CreateCampaignWithProductTest">
+      <class name="Com.vtiger.contactsTest.CreateContactsTest">
         <methods>
-          <include name="createCampaignTest"/>
           <include name="afterClass1Test"/>
           <include name="beforesuite1Test"/>
           <include name="beforeMethod1Test"/>
           <include name="afterMethod1Test"/>
+          <include name="crateContact"/>
           <include name="afterSuite1Test"/>
           <include name="beforeClass1Test"/>
         </methods>
-      </class> <!-- Com.vtiger.campagnsTest.CreateCampaignWithProductTest -->
+      </class> <!-- Com.vtiger.contactsTest.CreateContactsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
