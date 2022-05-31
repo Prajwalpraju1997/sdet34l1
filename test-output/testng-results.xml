@@ -1,116 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T11:52:16 IST" name="Default suite" finished-at="2022-05-24T11:52:17 IST" duration-ms="1451">
+  <suite started-at="2022-05-31T14:58:29 IST" name="Suite" finished-at="2022-05-31T15:00:13 IST" duration-ms="103860">
     <groups>
-      <group name="regression">
-        <method signature="CreateCampaignWithProductTest.createCampaignTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" name="createCampaignTest" class="Com.vtiger.campagnsTest.CreateCampaignWithProductTest"/>
-      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="CreateCampgainsTest.createCampaignTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" name="createCampaignTest" class="Com.vtiger.campagnsTest.CreateCampgainsTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-05-24T11:52:16 IST" name="Default test" finished-at="2022-05-24T11:52:17 IST" duration-ms="1451">
-      <class name="Com.vtiger.campagnsTest.CreateCampaignWithProductTest">
-        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:10 IST" name="beforesuite1Test" finished-at="2022-05-24T11:52:16 IST" duration-ms="5847" status="PASS">
+    <test started-at="2022-05-31T14:58:29 IST" name="Test" finished-at="2022-05-31T15:00:13 IST" duration-ms="103860">
+      <class name="Com.vtiger.campagnsTest.CreateCampgainsTest">
+        <test-method is-config="true" signature="beforesuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T14:58:27 IST" name="beforesuite1Test" finished-at="2022-05-31T14:58:29 IST" duration-ms="2295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite1Test -->
-        <test-method is-config="true" signature="beforeClass1Test(java.lang.String)[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:16 IST" name="beforeClass1Test" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653373336162" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method beforeClass1Test but has not been marked @Optional or defined
-in C:\Users\PRAJWAL\AppData\Local\Temp\testng-eclipse-1766127996\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method beforeClass1Test but has not been marked @Optional or defined
-in C:\Users\PRAJWAL\AppData\Local\Temp\testng-eclipse-1766127996\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="beforeClass1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T14:58:29 IST" name="beforeClass1Test" finished-at="2022-05-31T14:58:53 IST" duration-ms="23329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass1Test -->
-        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:17 IST" name="beforeMethod1Test" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653373337279" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T14:58:53 IST" name="beforeMethod1Test" finished-at="2022-05-31T14:59:20 IST" duration-ms="26984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod1Test -->
-        <test-method signature="createCampaignTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:17 IST" name="createCampaignTest" finished-at="2022-05-24T11:52:17 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method beforeClass1Test but has not been marked @Optional or defined
-in C:\Users\PRAJWAL\AppData\Local\Temp\testng-eclipse-1766127996\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method beforeClass1Test but has not been marked @Optional or defined
-in C:\Users\PRAJWAL\AppData\Local\Temp\testng-eclipse-1766127996\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="createCampaignTest()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T14:59:20 IST" name="createCampaignTest" finished-at="2022-05-31T15:00:05 IST" duration-ms="44950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCampaignTest -->
-        <test-method is-config="true" signature="afterMethod1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:17 IST" name="afterMethod1Test" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653373337452" status="SKIP">
+        <test-method is-config="true" signature="afterMethod1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T15:00:05 IST" name="afterMethod1Test" finished-at="2022-05-31T15:00:12 IST" duration-ms="6722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod1Test -->
-        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:17 IST" name="afterClass1Test" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653373337467" status="SKIP">
+        <test-method is-config="true" signature="afterClass1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T15:00:12 IST" name="afterClass1Test" finished-at="2022-05-31T15:00:13 IST" duration-ms="1293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass1Test -->
-        <test-method is-config="true" signature="afterSuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampaignWithProductTest@dca2615]" started-at="2022-05-24T11:52:17 IST" name="afterSuite1Test" finished-at="2022-05-24T11:52:17 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="afterSuite1Test()[pri:0, instance:Com.vtiger.campagnsTest.CreateCampgainsTest@571c5681]" started-at="2022-05-31T15:00:14 IST" name="afterSuite1Test" finished-at="2022-05-31T15:00:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite1Test -->
-      </class> <!-- Com.vtiger.campagnsTest.CreateCampaignWithProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Com.vtiger.campagnsTest.CreateCampgainsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
