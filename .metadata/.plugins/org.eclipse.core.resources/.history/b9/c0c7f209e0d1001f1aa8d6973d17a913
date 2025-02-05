@@ -1,0 +1,24 @@
+package Test.com;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.manager.SeleniumManager;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Selenium_Test {
+
+	    public static void main(String[] args) {
+	    	
+	    	System.setProperty("webdriver.chrome.driver", "C:\\selenium\\chromedriver.exe");
+	    	
+	    	WebDriver driver = new ChromeDriver();
+	    	driver.get("https://www.makemytrip.com/");
+	    	driver.findElement(By.xpath
+	    	driver.findElement(By.xpath("//span[@class='commonModal__close']")).click();
+	    }
+	    }
+
+

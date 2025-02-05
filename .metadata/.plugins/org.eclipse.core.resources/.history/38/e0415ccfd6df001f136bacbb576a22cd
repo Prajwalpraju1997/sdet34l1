@@ -1,0 +1,19 @@
+package Test.com;
+
+import java.util.Iterator;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String p = "**********";
+	
+	System.out.println(p.substring(5));
+		
+		
+		
+
+	}
+	}
+

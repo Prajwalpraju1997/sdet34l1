@@ -1,0 +1,27 @@
+package Test.com;
+
+import java.util.Iterator;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String p = "prajwal N";
+	
+		//String A[] = p.split(" ");
+		
+	     String A = p.trim();
+		
+		for (int i=A.length()-1; i>=0; i--) {
+			
+	
+		
+		System.out.print(A.charAt(i));
+		System.out.println(p.trim());
+		
+		
+
+	}
+	}
+}
